@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pratice Web Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=REM:wght@300;500&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="/CSS/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="left"> Pratice WebPage </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">About</a></li>
+                        <li><a href="/">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="firstSection">
+                <div class="leftSection">
+                    Hi, My name is <span class="cyan">Varun A L</span>
+                    <div>and I am a Passionate</div>
+                    <span id="element"></span>
+
+                    <div class="button">
+                        <button class="btn">
+                            Download Resume
+                        </button>
+                        <button class="btn">
+                            Vist Github
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="rightSection">
+                    <img src="/Files/5rom12.jpg"
+                        alt="Image Unable To Load">
+                </div>
+            </section>
+
+            <hr>
+
+            <section class="secondSection">
+                <span class="text-gray">What i have done so far </span>
+                <h1>Skills Earned</h1>
+
+                <div class="box">
+                    <div class="vertical">
+                        <img class="img-top" src="/Files/html.png" alt>
+
+                        <div class="vertical-title">
+                            HTML
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Blanditiis rem architecto doloremque quaerat
+                            quisquam, quasi culpa velit sapiente nam, expedita,
+                            repudiandae saepe nisi id pariatur!
+                        </div>
+                    </div><div class="vertical">
+                        <img class="img-top" src="/Files/css.png" alt>
+
+                        <div class="vertical-title">
+                            CSS
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Blanditiis rem architecto doloremque quaerat
+                            quisquam, quasi culpa velit sapiente nam, expedita,
+                            repudiandae saepe nisi id pariatur!
+                        </div>
+                    </div><div class="vertical">
+                        <img class="img-top" src="/Files/discord.png"
+                            alt>
+
+                        <div class="vertical-title">
+                            Discord
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Blanditiis rem architecto doloremque quaerat
+                            quisquam, quasi culpa velit sapiente nam, expedita,
+                            repudiandae saepe nisi id pariatur!
+                        </div>
+                    </div><div class="vertical">
+                        <img class="img-top" src="/Files/youtube.png"
+                            alt>
+
+                        <div class="vertical-title">
+                            Youtube
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Blanditiis rem architecto doloremque quaerat
+                            quisquam, quasi culpa velit sapiente nam, expedita,
+                            repudiandae saepe nisi id pariatur!
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                    <h3> Pratice WebPage</h3>
+                </div>
+                <div class="footer-second">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                    </ul>
+                </div>
+                <div class="footer-third">
+                    <ul>
+                        <li><a href="/">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-forth">
+                    <ul>
+                        <li><a href="/">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-rights">
+                Copyrights&#169; praticewebpage.com | All rights reserved
+            </div>
+        </footer>
+
+        <!-- Load library from the CDN -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <!-- Setup and start animation! -->
+        <script>
+        var typed = new Typed('#element', {
+        strings: ['Web Developer','Student','Gamer','Graphic Designer','video Editor','Photographer'],
+        typeSpeed: 50,
+        });
+        </script>
+    </body>
+</html>
